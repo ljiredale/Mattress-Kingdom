@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>PYCHARM Daddy's Cars</title>
+
+	 <script>
+    $(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        } else {
+            $(".item").addClass("active");
+        }
+    });
+});
+    </script>
+
+<script>
+function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+}
+</script>
+
+</head>
+<body>
+
+	<nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Mattress Kingdom | Sleep with me</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item button secondary"><a href="#">Sign Up</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <div class="slider">
+		<div class="load">
+		</div>
+		<div class="content">
+			<div class="principal">
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<footer class="footer">
+
+</footer>
+
+
+</html>
