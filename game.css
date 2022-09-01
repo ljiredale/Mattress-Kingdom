@@ -1,37 +1,37 @@
+body {
+    background-image: url("background.png");
+}
+
 *{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
 .game{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    width: 700px;
+    height: 410px;
+    border: 5px solid black;
     margin: auto;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 #character{
-    width: 20px;
-    height: 50px;
-    background-color: red;
     position:relative;
-    top: 150px;
+    top: 340px;
+    left:50px;
 }
 .animate{
     animation: jump 0.3s linear;
 }
 @keyframes jump{
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 290px;}
+    30%{top: 200px}
+    70%{top: 200px;}
+    100%{top: 290px;}
 }
 
 #block{
-    background-color: blue;
-    width: 20px;
-    height: 20px;
     position: relative;
-    top: 130px;
+    top: 270px;
     left: 500px;
     animation: block 1s infinite linear;
 }
